@@ -1,0 +1,392 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #672567;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Montserrat";
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+
+h3 h4 h5 h6 {
+    font-family: "Montserrat";
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+
+p {
+   color:#000000;
+    
+}
+
+hr {
+    height: 5px;
+    color: #000000;
+    background: #000000;
+    font-size: 0;
+    border: 0;
+}
+
+/* headings */
+
+.big-heading {
+    font-family: "montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.hero-banner {
+    background-image:url(https://platipus-anchors.com/wp-content/uploads/2019/11/Case-Study-Glasgow-Power-Line-Crossing.jpg) ;
+    position: relative;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.hero-content {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.new-section {
+
+    color: #222629;
+    align-items: center;
+    justify-content: center;
+}
+
+.colored-section {
+    background-color: #222629;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #758fa1;
+    color: white;
+}
+
+.funny-section{
+    background-color: #b265b5;
+}
+  
+/* Falling Leaves */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Fixed background section */
+.fixed-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    z-index: -1;
+}
+
+/* Content area */
+.content {
+    position: relative;
+    padding: 20px;
+}
+
+.content-section {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    margin-top: 0;
+}
+
+.falling-leaves {
+    background-color: rgb(236, 188, 125);
+    height: 100%;
+  }
+  
+.leaf-scene {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform-style: preserve-3d;
+  
+    div {
+     position: absolute;
+     top: 0;
+     left: 0;
+    width: 20px;
+     height: 20px;
+     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg) no-repeat;
+     background-size: 100%;
+     transform-style: preserve-3d;
+     backface-visibility: visible;
+      }
+    }
+
+    .Leaf-container {
+        position: static;
+        z-index: -1;
+        background-attachment: fixed;
+    }
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "montserrat";
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    background-color: #61892f;
+    color: black;
+}
+
+.download-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Title Section */
+
+#title {
+    color: white;
+    background-color: #222629;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Welcome Banner */
+
+.section-heading {
+    color: #000000;
+}
+
+#welcome-banner {
+    align-content: center;
+    justify-content: center;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    background-color: #61892f;
+}
+
+.icon {
+    color: #000000;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.icon:hover {
+    color: #ffffff;
+}
+
+/* Product Features Section */
+#product-features {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.service-item {
+    min-height: 20rem;
+    padding:12px;
+    margin: 16px;
+    background-color: #474b4f;
+    border-radius: 5px;
+}
+
+.product-link {
+    color: #86c232;
+}
+
+.product-link:hover {
+    color: #61892f;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+
+#press {
+    background-color: #6b6e70;
+    padding-bottom: 3%;
+    padding-top: 0;
+}
+
+.press-logo{
+    width: 10rem;
+    margin: 20px 12px 50px;
+}
+
+.press-heading {
+    padding-top: 0;
+    padding: 50px;
+    color: white;
+}
+
+/* Pricing Section*/
+
+.line-box {
+    color: #0076c4;
+}
+
+#pricing {
+    padding: 50px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    border-color: black;
+}
+
+.card-header {
+    background-color: #61892f;
+    color: white;
+}
+
+.card-body {
+    background-color: #637486;
+}
+
+.price-button:hover {
+    background-color: #86c232;
+    color: black;
+}
+
+.price-button-free {
+    background-color: #86c232;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+
+    .testimonial-text {
+        font-size: 2.2rem;
+    }
+
+    .press-logo {
+        size: 4rem;
+    }
+
+  }
