@@ -236,6 +236,29 @@
 
   </section>
 
+  <div>
+    <div class="container">
+      <h2>Still not found an answer?</h2>
+      <form method="post" action="PHP/send-email.php" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="subject" required>
+
+        <label for="message">message</label>
+        <textarea name="message" id="message" required></textarea>
+
+        <br>
+        <button type="submit">Submit</button>
+      
+        </form>
+  </div>
+  </div>
+
 <div class="footer"> 
   <hr class="footer-rule">  
 </div>
